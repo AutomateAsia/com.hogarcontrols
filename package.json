@@ -1,0 +1,27 @@
+{
+	"name": "com.mcohome",
+	"version": "1.0.0",
+	"description": "This app adds support for the Z-wave devices made by [MCOhome](http://www.mcohome.com).",
+	"main": "app.js",
+	"requires": true,
+	"dependencies": {
+		"git-branch": "^1.0.0",
+		"homey-log": "^1.0.1",
+		"homey-meshdriver": "^1.2.11"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"run": "homeyConfig compose && athom project --run",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/TedTolboom/com.mcohome.git"
+	},
+	"author": "Ted Tolboom",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/TedTolboom/com.mcohome/issues"
+	},
+	"homepage": "https://forum.athom.com/discussion/3463/"
+}
