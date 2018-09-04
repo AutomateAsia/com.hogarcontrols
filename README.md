@@ -18,18 +18,18 @@ A glass panel switch with 1 - 4 capacitive touch buttons.
   <img src="https://raw.githubusercontent.com/AutomateAsia/com.hogarcontrols/master/drivers/Switch-1-Plus/assets/images/small.jpg" width="20%" height="20%">
 </a>
 <a href="https://github.com/AutomateAsia/com.hogarcontrols">
-  <img src="https://raw.githubusercontent.com/AutomateAsia/com.hogarcontrols/master/drivers/Switch-2-Plus/assets/images/small.jpg" width="22%" height="22%">
+  <img src="https://raw.githubusercontent.com/AutomateAsia/com.hogarcontrols/master/drivers/Switch-2-Plus/assets/images/small.jpg" width="20%" height="20%">
 </a>
 <a href="https://github.com/AutomateAsia/com.hogarcontrols">
-  <img src="https://raw.githubusercontent.com/AutomateAsia/com.hogarcontrols/master/drivers/Switch-3-Plus/assets/images/small.jpg" width="15%" height="15%">
+  <img src="https://raw.githubusercontent.com/AutomateAsia/com.hogarcontrols/master/drivers/Switch-3-Plus/assets/images/small.jpg" width="20%" height="20%">
 </a>
 <a href="https://github.com/AutomateAsia/com.hogarcontrols">
-  <img src="https://raw.githubusercontent.com/AutomateAsia/com.hogarcontrols/master/drivers/Switch-4-Plus/assets/images/small.jpg" width="22%" height="22%">
+  <img src="https://raw.githubusercontent.com/AutomateAsia/com.hogarcontrols/master/drivers/Switch-4-Plus/assets/images/small.jpg" width="20%" height="20%">
 </a>
 
 ### Hogar Controls Touch Panel Dimmer
 <a href="https://github.com/AutomateAsia/com.hogarcontrols">
-  <img src="https://raw.githubusercontent.com/AutomateAsia/com.hogarcontrols/master/drivers/Dimmer-1-Plus/assets/images/small.jpg" width="10%" height="10%">
+  <img src="https://raw.githubusercontent.com/AutomateAsia/com.hogarcontrols/master/drivers/Dimmer-1-Plus/assets/images/small.jpg" width="20%" height="20%">
 </a>  
 
 **Supported devices:**   
