@@ -1,21 +1,21 @@
 {
-	"id": "Switch-4-Plus",
+	"id": "Switch-3-Plus",
 	"branch": "master",
 	"name": {
-		"en": " 4 Touch Panel Switch"
+		"en": "3 Touch Panel Switch"
 	},
 	"zwave": {
 		"manufacturerId": [659],
 		"productTypeId": [3],
-		"productId": [20],
+		"productId": [19],
 		"learnmode": {
-			"image": "/drivers/Switch-4-Plus/assets/learnmode.svg",
+			"image": "/drivers/Switch-3-Plus/assets/learnmode.svg",
 			"instruction": {
 				"en": "1. Set the controller into INCLUSION mode\n2.Touch and hold any buttons for more than 5 seconds.\n3.Blue indicator should flash a few times if successful."
 			}
 		},
 		"unlearnmode": {
-			"image": "/drivers/Switch-4-Plus/assets/learnmode.svg",
+			"image": "/drivers/Switch-3-Plus/assets/learnmode.svg",
 			"instruction": {
 				"en": "1. Set the controller into EXCLUSION mode\n2.Touch and hold any buttons for more than 5 seconds.\n3.Blue indicator should flash a few times if successful."
 			}
@@ -24,7 +24,6 @@
 			1
 		],
 		"associationGroupsOptions": {
-
 			"1": {
 				"hint": {
 					"en": "Lifeline group"
@@ -44,12 +43,8 @@
 				"hint": {
 					"en": "Switch 3"
 				}
-			},
-			"5": {
-				"hint": {
-					"en": "Switch 4"
-				}
 			}
+
 		},
 		"multiChannelNodes": {
 			"1": {
@@ -57,7 +52,7 @@
 				"capabilities": [
 					"onoff"
 				],
-				"icon": "/drivers/Switch-4-Plus/assets/icon_1.svg",
+				"icon": "/drivers/Switch-3-Plus/assets/icon_1.svg",
 				"name": {
 					"en": "Button 1"
 				},
@@ -68,31 +63,21 @@
 				"capabilities": [
 					"onoff"
 				],
-				"icon": "/drivers/Switch-4-Plus/assets/icon_2.svg",
+				"icon": "/drivers/Switch-3-Plus/assets/icon_2.svg",
 				"name": {
 					"en": "Button 2"
 				},
 				"settings": []
-			},
+			}
+			,
 			"3": {
 				"class": "socket",
 				"capabilities": [
 					"onoff"
 				],
-				"icon": "/drivers/Switch-4-Plus/assets/icon_3.svg",
+				"icon": "/drivers/Switch-3-Plus/assets/icon_3.svg",
 				"name": {
 					"en": "Button 3"
-				},
-				"settings": []
-			},
-			"4": {
-				"class": "socket",
-				"capabilities": [
-					"onoff"
-				],
-				"icon": "/drivers/Switch-4-Plus/assets/icon_4.svg",
-				"name": {
-					"en": "Button 4"
 				},
 				"settings": []
 			}
@@ -102,10 +87,10 @@
 	"capabilities": [
 		"onoff"
 	],
-	"icon": "/drivers/Switch-4-Plus/assets/icon.svg",
+	"icon": "/drivers/Switch-3-Plus/assets/icon.svg",
 	"images": {
-		"large": "/drivers/Switch-4-Plus/assets/images/large.jpg",
-		"small": "/drivers/Switch-4-Plus/assets/images/small.jpg"
+		"large": "/drivers/Switch-3-Plus/assets/images/large.jpg",
+		"small": "/drivers/Switch-3-Plus/assets/images/small.jpg"
 	},
 	"settings": [
 
