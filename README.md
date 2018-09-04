@@ -29,7 +29,7 @@ A glass panel switch with 1 - 4 capacitive touch buttons.
 
 ### Hogar Controls Touch Panel Dimmer
 <a href="https://github.com/AutomateAsia/com.hogarcontrols">
-  <img src="https://raw.githubusercontent.com/AutomateAsia/com.hogarcontrols/master/drivers/Dimmer-1-Plus/assets/images/small.jpg" width="20%" height="20%">
+  <img src="https://raw.githubusercontent.com/AutomateAsia/com.hogarcontrols/master/drivers/Dimmer-1-Plus/assets/images/small.jpg">
 </a>  
 
 **Supported devices:**   
