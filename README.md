@@ -1,4 +1,4 @@
-# MCOHome
+# Hogar Controls
 This app adds support for Z-wave devices made by [Hogar Controls](http://www.hogarcontrols.com).  
 <a href="https://github.com/AutomateAsia/com.hogarcontrols">
   <img src="https://raw.githubusercontent.com/AutomateAsia/com.hogarcontrols/master/assets/images/small.png">
