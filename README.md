@@ -15,16 +15,16 @@ Please file Pull Requests on the *development* branch of this repository and wit
 ### Hogar Controls Touch Panel Switches (1 - 4x)    
 A glass panel switch with 1 - 4 capacitive touch buttons.    
 <a href="https://github.com/AutomateAsia/com.hogarcontrols">
-  <img src="https://raw.githubusercontent.com/AutomateAsia/com.hogarcontrols/master/drivers/Switch-1-Plus/assets/images/small.jpg" width="19%" height="19%">
+  <img src="https://raw.githubusercontent.com/AutomateAsia/com.hogarcontrols/master/drivers/Switch-1-Plus/assets/images/small.jpg">
 </a>
 <a href="https://github.com/AutomateAsia/com.hogarcontrols">
-  <img src="https://raw.githubusercontent.com/AutomateAsia/com.hogarcontrols/master/drivers/Switch-2-Plus/assets/images/small.jpg" width="20%" height="20%">
+  <img src="https://raw.githubusercontent.com/AutomateAsia/com.hogarcontrols/master/drivers/Switch-2-Plus/assets/images/small.jpg">
 </a>
 <a href="https://github.com/AutomateAsia/com.hogarcontrols">
-  <img src="https://raw.githubusercontent.com/AutomateAsia/com.hogarcontrols/master/drivers/Switch-3-Plus/assets/images/small.jpg" width="18%" height="18%">
+  <img src="https://raw.githubusercontent.com/AutomateAsia/com.hogarcontrols/master/drivers/Switch-3-Plus/assets/images/small.jpg">
 </a>
 <a href="https://github.com/AutomateAsia/com.hogarcontrols">
-  <img src="https://raw.githubusercontent.com/AutomateAsia/com.hogarcontrols/master/drivers/Switch-4-Plus/assets/images/small.jpg" width="20%" height="20%">
+  <img src="https://raw.githubusercontent.com/AutomateAsia/com.hogarcontrols/master/drivers/Switch-4-Plus/assets/images/small.jpg">
 </a>
 
 ### Hogar Controls Touch Panel Dimmer
