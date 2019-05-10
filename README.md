@@ -54,5 +54,8 @@ If you like the app, consider a donation to support development
 ## Changelog:  
 
 
+### v1.0.5
+* Fixed status reporting and issues with 1 button switch
+
 ### v1.0.0
 * App store release   

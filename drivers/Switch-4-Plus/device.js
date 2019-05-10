@@ -12,6 +12,7 @@ class TouchPanelSwitch4Plus extends ZwaveDevice {
 		this.printNode();
 
 		// register capabilities for this device
+		this.registerCapability('onoff', 'BASIC');
 		this.registerCapability('onoff', 'SWITCH_BINARY');
 
 	}
