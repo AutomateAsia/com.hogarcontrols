@@ -32,6 +32,16 @@ A glass panel switch with 1 - 4 capacitive touch buttons.
   <img src="https://raw.githubusercontent.com/AutomateAsia/com.hogarcontrols/master/drivers/Dimmer-1-Plus/assets/images/large.jpg" width="15%" height="15%">
 </a>  
 
+### Hogar Controls Fan Dimmer
+<a href="https://github.com/AutomateAsia/com.hogarcontrols">
+  <img src="https://raw.githubusercontent.com/AutomateAsia/com.hogarcontrols/master/drivers/Fan-Dimmer/assets/images/large.jpg" width="15%" height="15%">
+</a>  
+
+### Hogar Controls Pebble
+<a href="https://github.com/AutomateAsia/com.hogarcontrols">
+  <img src="https://raw.githubusercontent.com/AutomateAsia/com.hogarcontrols/master/drivers/Pebble/assets/images/large.jpg" width="15%" height="15%">
+</a>  
+
 **Supported devices:**   
 * Touch panel switch HTP-1SD-XX, HTP-1S0-XX, HTP-2S0-XX, HTP-3S0-XX, HTP-4S0-XX    
 
@@ -53,6 +63,9 @@ If you like the app, consider a donation to support development
 
 ## Changelog:  
 
+### v1.0.6
+* Added new Product IDs for Dimmer 1, Switch 1, Switch 2, Switch 3 and Switch 4
+* Added support for Fan Dimmer and Pebble
 
 ### v1.0.5
 * Fixed status reporting and issues with 1 button switch

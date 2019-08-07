@@ -1,8 +1,8 @@
 {
-	"id": "Dimmer-1-Plus",
+	"id": "Fan-Dimmer",
 	"branch": "master",
 	"name": {
-		"en": "1 Touch Dimmer"
+		"en": "Fan Dimmer"
 	},
 	"zwave": {
 		"manufacturerId": [
@@ -12,18 +12,18 @@
 			3
     ],
 		"productId": [
-			16,17424
+			27
     ],
 		"learnmode": {
-			"image": "/drivers/Dimmer-1-Plus/assets/learnmode.svg",
+			"image": "/drivers/Fan-Dimmer/assets/learnmode.svg",
 			"instruction": {
-				"en": "1. Set the controller into INCLUSION mode\n2.Touch and hold any buttons for more than 5 seconds.\n"
+				"en": "1. Set the controller into INCLUSION mode\n2.Use a pin, press and hold the button in the corner of of the circuit board for more than 5 seconds.\n"
 			}
 		},
 		"unlearnmode": {
-			"image": "/drivers/Dimmer-1-Plus/assets/learnmode.svg",
+			"image": "/drivers/Fan-Dimmer/assets/learnmode.svg",
 			"instruction": {
-				"en": "1. Set the controller into EXCLUSION mode\n2.Touch and hold any buttons for more than 5 seconds.\n"
+				"en": "1. Set the controller into EXCLUSION mode\n2.Use a pin, press and hold the button in the corner of of the circuit board for more than 5 seconds.\n"
 			}
 		},
 		"associationGroups": [
@@ -57,10 +57,10 @@
 			}
 		}
 	},
-	"icon": "/drivers/Dimmer-1-Plus/assets/icon.svg",
+	"icon": "/drivers/Fan-Dimmer/assets/icon.svg",
 	"images": {
-		"large": "/drivers/Dimmer-1-Plus/assets/images/large.jpg",
-		"small": "/drivers/Dimmer-1-Plus/assets/images/small.jpg"
+		"large": "/drivers/Fan-Dimmer/assets/images/large.jpg",
+		"small": "/drivers/Fan-Dimmer/assets/images/small.jpg"
 	},
 	"settings": [
 

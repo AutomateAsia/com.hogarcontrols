@@ -1,0 +1,51 @@
+{
+	"id": "Pebble",
+	"branch": "master",
+	"name": {
+		"en": "Pebble"
+	},
+	"zwave": {
+		"manufacturerId": [659],
+		"productTypeId": [3],
+		"productId": [275],
+		"learnmode": {
+			"image": "/drivers/Pebble/assets/learnmode.svg",
+			"instruction": {
+				"en": "1. Set the controller into INCLUSION mode\n2.Use a pin, press and hold the button beside the battery for more than 5 seconds.\n3.LED indicator should flash a few times if successful."
+			}
+		},
+		"unlearnmode": {
+			"image": "/drivers/Pebble/assets/learnmode.svg",
+			"instruction": {
+				"en": "1. Set the controller into EXCLUSION mode\n2.Use a pin, press and hold the button beside the battery for more than 5 seconds.\n3.LED indicator should flash a few times if successful."
+			}
+		},
+		"associationGroups": [
+			1
+		],
+		"associationGroupsOptions": {
+			"1": {
+				"hint": {
+					"en": "Lifeline group"
+				}
+			},
+			"2": {
+				"hint": {
+					"en": "Switch 1"
+				}
+			}
+		}
+	},
+	"class": "button",
+	"capabilities": [
+		"measure_battery"
+	],
+	"icon": "/drivers/Pebble/assets/icon.svg",
+	"images": {
+		"large": "/drivers/Pebble/assets/images/large.jpg",
+		"small": "/drivers/Pebble/assets/images/small.jpg"
+	},
+	"settings": [
+
+			]
+		}

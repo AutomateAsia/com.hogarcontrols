@@ -1,0 +1,75 @@
+[
+  {
+    "id": "pebble_scene",
+    "title": {
+      "en": "Scene is activated"
+    },
+    "args": [
+      {
+        "type": "device",
+        "name": "device",
+        "filter": "driver_id=Pebble"
+      },
+      {
+        "name": "scene",
+        "type": "dropdown",
+        "values": [
+          {
+            "id": "1",
+            "label": {
+              "en": "Single Tap"
+            }
+          },
+          {
+            "id": "2",
+            "label": {
+              "en": "Double Tap"
+            }
+          },
+          {
+            "id": "3",
+            "label": {
+              "en": "Swipe Up"
+            }
+          },
+          {
+            "id": "4",
+            "label": {
+              "en": "Swipe Down"
+            }
+          },
+          {
+            "id": "5",
+            "label": {
+              "en": "Swipe Right"
+            }
+          },
+          {
+            "id": "6",
+            "label": {
+              "en": "Swipe Left"
+            }
+          },
+          {
+            "id": "7",
+            "label": {
+              "en": "Counter Clockwise"
+            }
+          },
+          {
+            "id": "8",
+            "label": {
+              "en": "Clockwise"
+            }
+          },
+          {
+            "id": "9",
+            "label": {
+              "en": "Hold and Release"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -7,7 +7,7 @@
 	"zwave": {
 		"manufacturerId": [659],
 		"productTypeId": [3],
-		"productId": [17],
+		"productId": [17,17425],
 		"learnmode": {
 			"image": "/drivers/Switch-1-Plus/assets/learnmode.svg",
 			"instruction": {

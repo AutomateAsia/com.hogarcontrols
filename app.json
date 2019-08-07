@@ -4,7 +4,7 @@
   "name": {
     "en": "Hogar Controls"
   },
-  "version": "1.0.5",
+  "version": "1.0.6",
   "compatibility": ">=1.5.2",
   "athomForumDiscussionId": 3463,
   "author": {
@@ -30,7 +30,83 @@
       "Z-wave"
     ]
   },
-  "flow": {},
+  "flow": {
+    "triggers": [
+      {
+        "id": "pebble_scene",
+        "title": {
+          "en": "Scene is activated"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=Pebble"
+          },
+          {
+            "name": "scene",
+            "type": "dropdown",
+            "values": [
+              {
+                "id": "1",
+                "label": {
+                  "en": "Single Tap"
+                }
+              },
+              {
+                "id": "2",
+                "label": {
+                  "en": "Double Tap"
+                }
+              },
+              {
+                "id": "3",
+                "label": {
+                  "en": "Swipe Up"
+                }
+              },
+              {
+                "id": "4",
+                "label": {
+                  "en": "Swipe Down"
+                }
+              },
+              {
+                "id": "5",
+                "label": {
+                  "en": "Swipe Right"
+                }
+              },
+              {
+                "id": "6",
+                "label": {
+                  "en": "Swipe Left"
+                }
+              },
+              {
+                "id": "7",
+                "label": {
+                  "en": "Counter Clockwise"
+                }
+              },
+              {
+                "id": "8",
+                "label": {
+                  "en": "Clockwise"
+                }
+              },
+              {
+                "id": "9",
+                "label": {
+                  "en": "Hold and Release"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "drivers": [
     {
       "id": "Dimmer-1-Plus",
@@ -45,7 +121,8 @@
           3
         ],
         "productId": [
-          16
+          16,
+          17424
         ],
         "learnmode": {
           "image": "/drivers/Dimmer-1-Plus/assets/learnmode.svg",
@@ -98,6 +175,125 @@
       "settings": []
     },
     {
+      "id": "Fan-Dimmer",
+      "name": {
+        "en": "Fan Dimmer"
+      },
+      "zwave": {
+        "manufacturerId": [
+          659
+        ],
+        "productTypeId": [
+          3
+        ],
+        "productId": [
+          27
+        ],
+        "learnmode": {
+          "image": "/drivers/Fan-Dimmer/assets/learnmode.svg",
+          "instruction": {
+            "en": "1. Set the controller into INCLUSION mode\n2.Use a pin, press and hold the button in the corner of of the circuit board for more than 5 seconds.\n"
+          }
+        },
+        "unlearnmode": {
+          "image": "/drivers/Fan-Dimmer/assets/learnmode.svg",
+          "instruction": {
+            "en": "1. Set the controller into EXCLUSION mode\n2.Use a pin, press and hold the button in the corner of of the circuit board for more than 5 seconds.\n"
+          }
+        },
+        "associationGroups": [
+          1
+        ],
+        "associationGroupsOptions": {
+          "1": {
+            "hint": {
+              "en": "Switch 1 - control associated devices"
+            }
+          },
+          "2": {
+            "hint": {
+              "en": "Lifeline group"
+            }
+          }
+        }
+      },
+      "class": "light",
+      "capabilities": [
+        "onoff",
+        "dim"
+      ],
+      "capabilitiesOptions": {
+        "onoff": {
+          "setOnDim": false
+        },
+        "dim": {
+          "opts": {
+            "duration": true
+          }
+        }
+      },
+      "icon": "/drivers/Fan-Dimmer/assets/icon.svg",
+      "images": {
+        "large": "/drivers/Fan-Dimmer/assets/images/large.jpg",
+        "small": "/drivers/Fan-Dimmer/assets/images/small.jpg"
+      },
+      "settings": []
+    },
+    {
+      "id": "Pebble",
+      "name": {
+        "en": "Pebble"
+      },
+      "zwave": {
+        "manufacturerId": [
+          659
+        ],
+        "productTypeId": [
+          3
+        ],
+        "productId": [
+          275
+        ],
+        "learnmode": {
+          "image": "/drivers/Pebble/assets/learnmode.svg",
+          "instruction": {
+            "en": "1. Set the controller into INCLUSION mode\n2.Use a pin, press and hold the button beside the battery for more than 5 seconds.\n3.LED indicator should flash a few times if successful."
+          }
+        },
+        "unlearnmode": {
+          "image": "/drivers/Pebble/assets/learnmode.svg",
+          "instruction": {
+            "en": "1. Set the controller into EXCLUSION mode\n2.Use a pin, press and hold the button beside the battery for more than 5 seconds.\n3.LED indicator should flash a few times if successful."
+          }
+        },
+        "associationGroups": [
+          1
+        ],
+        "associationGroupsOptions": {
+          "1": {
+            "hint": {
+              "en": "Lifeline group"
+            }
+          },
+          "2": {
+            "hint": {
+              "en": "Switch 1"
+            }
+          }
+        }
+      },
+      "class": "button",
+      "capabilities": [
+        "measure_battery"
+      ],
+      "icon": "/drivers/Pebble/assets/icon.svg",
+      "images": {
+        "large": "/drivers/Pebble/assets/images/large.jpg",
+        "small": "/drivers/Pebble/assets/images/small.jpg"
+      },
+      "settings": []
+    },
+    {
       "id": "Switch-1-Plus",
       "name": {
         "en": "1 Touch Panel Switch"
@@ -110,7 +306,8 @@
           3
         ],
         "productId": [
-          17
+          17,
+          17425
         ],
         "learnmode": {
           "image": "/drivers/Switch-1-Plus/assets/learnmode.svg",
@@ -164,7 +361,8 @@
           3
         ],
         "productId": [
-          18
+          18,
+          17426
         ],
         "learnmode": {
           "image": "/drivers/Switch-2-Plus/assets/learnmode.svg",
@@ -247,7 +445,8 @@
           3
         ],
         "productId": [
-          19
+          19,
+          17427
         ],
         "learnmode": {
           "image": "/drivers/Switch-3-Plus/assets/learnmode.svg",
@@ -346,7 +545,8 @@
           3
         ],
         "productId": [
-          20
+          20,
+          17428
         ],
         "learnmode": {
           "image": "/drivers/Switch-4-Plus/assets/learnmode.svg",
